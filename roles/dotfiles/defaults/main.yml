@@ -1,0 +1,11 @@
+#SPDX-License-Identifier: MIT-0
+---
+remote_repo: https://github.com/chrisbalmer/dotfiles.git
+local_repo: ~/code/dotfiles
+directories:
+- ~/.config
+links:
+- src: .zshrc
+  dest: ~/.zshrc
+- src: .config/starship.toml
+  dest: ~/.config/starship.toml

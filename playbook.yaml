@@ -1,0 +1,7 @@
+- name: Setup MacOS Workstation
+  hosts: all
+  environment:
+    PATH: "/opt/homebrew/bin:{{ lookup('env', 'PATH') }}"
+  roles:
+    - base
+    - dotfiles

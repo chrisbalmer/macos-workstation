@@ -1,0 +1,17 @@
+#SPDX-License-Identifier: MIT-0
+---
+- name: Clone dotfiles
+  git:
+    repo: "{{ remote_repo }}"
+    dest: "{{ local_repo }}"
+    #version: "{{ version }}"
+  become: false
+
+- name: Link dotfiles
+  file:
+    src: "{{ local_repo }}/{{ item.src }}"
+    dest: "{{ item.dest }}"
+    state: link
+    mode: 0600
+  become: false
+  with_items: "{{ links }}"

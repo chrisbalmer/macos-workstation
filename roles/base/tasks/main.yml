@@ -1,0 +1,17 @@
+#SPDX-License-Identifier: MIT-0
+---
+- name: Tap repositories
+  community.general.homebrew_tap:
+    name: "{{ item }}"
+  loop: "{{ brew_taps }}"
+
+- community.general.homebrew:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ brew_packages }}"
+
+- community.general.mas:
+    id: "{{ item }}"
+    state: present
+  become: false
+  loop: "{{ mas_apps }}"

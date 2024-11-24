@@ -1,0 +1,56 @@
+#SPDX-License-Identifier: MIT-0
+---
+brew_taps:
+- hashicorp/tap
+- mas-cli/tap
+
+brew_packages:
+- visual-studio-code
+- iterm2
+- hashicorp/tap/terraform
+- terragrunt
+- hashicorp/tap/packer
+- vmware-fusion
+- starship
+- python3
+- go
+- font-source-code-pro-for-powerline
+- font-sauce-code-pro-nerd-font
+- docker
+- discord
+- firefox
+- google-chrome
+- obsidian
+- wireshark
+- royal-tsx
+- little-snitch
+- jq
+- kubernetes-cli
+- coder
+- docker-compose
+- exult
+- ffmpeg
+- k9s
+- okta-aws-cli
+- tmux
+- pango
+- smartmontools
+- yq
+- vcftools
+- hashicorp/tap/vault
+- wget
+- awscli
+- kubeshark
+- minicom
+- minio-mc
+- warp
+- mas-cli/tap/mas
+
+mas_apps:
+- 1333542190 # 1Password
+- 1569813296 # 1Password for Safari
+- 803453959  # Slack
+# - 407963104  # Pixelmator doesn't appear to exist for apple silicon
+- 1289197285 # MindNode
+- 411643860  # DaisyDisk
+# - 422856039  # Hopper Disassembler doesn't appear to exist for apple silicon
