@@ -1,0 +1,10 @@
+dockitems_remove:
+- Launchpad
+- TV
+- Podcasts
+- 'App Store'
+
+dockitems_persist:
+- name: "Visual Studio Code"
+  path: "/Applications/Visual Studio Code.app/"
+  pos: 1

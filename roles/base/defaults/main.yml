@@ -5,52 +5,54 @@ brew_taps:
 - mas-cli/tap
 
 brew_packages:
-- visual-studio-code
-- iterm2
-- hashicorp/tap/terraform
-- terragrunt
-- hashicorp/tap/packer
-- vmware-fusion
-- starship
-- python3
-- go
-- font-source-code-pro-for-powerline
-- font-sauce-code-pro-nerd-font
-- docker
-- discord
-- firefox
-- google-chrome
-- obsidian
-- wireshark
-- royal-tsx
-- little-snitch
-- jq
-- kubernetes-cli
+- 1password
+- awscli
 - coder
+- discord
+- docker
 - docker-compose
 - exult
 - ffmpeg
-- k9s
-- okta-aws-cli
-- tmux
-- pango
-- smartmontools
-- yq
-- vcftools
+- firefox
+- font-sauce-code-pro-nerd-font
+- font-source-code-pro-for-powerline
+- go
+- google-chrome
+- hashicorp/tap/packer
+- hashicorp/tap/terraform
 - hashicorp/tap/vault
-- wget
-- awscli
+- iterm2
+- jq
+- k9s
+- kubernetes-cli
 - kubeshark
+- little-snitch
+- mas-cli/tap/mas
 - minicom
 - minio-mc
+- obsidian
+- okta-aws-cli
+- pango
+- python3
+- royal-tsx
+- smartmontools
+- starship
+- terragrunt
+- tmux
+- vcftools
+- visual-studio-code
+- vmware-fusion
 - warp
-- mas-cli/tap/mas
+- wget
+- wireshark
+- yq
 
 mas_apps:
-- 1333542190 # 1Password
 - 1569813296 # 1Password for Safari
-- 803453959  # Slack
-# - 407963104  # Pixelmator doesn't appear to exist for apple silicon
-- 1289197285 # MindNode
 - 411643860  # DaisyDisk
+- 1289197285 # MindNode
+- 490179405  # Okta Verify
+- 803453959  # Slack
+# - 1333542190 # 1Password, current version isn't in the app store anymore
+# - 407963104  # Pixelmator doesn't appear to exist for apple silicon
 # - 422856039  # Hopper Disassembler doesn't appear to exist for apple silicon

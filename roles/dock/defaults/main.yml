@@ -1,0 +1,5 @@
+#SPDX-License-Identifier: MIT-0
+---
+dockutil_install: true
+dockitems_remove: []
+dockitems_persist: []

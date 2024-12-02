@@ -1,0 +1,27 @@
+---
+- name: Set Misson Control auto arrange spaces
+  community.general.osx_defaults:
+    domain: com.apple.dock
+    key: mru-spaces
+    type: bool
+    value: false
+    state: present
+  notify: Restart Dock
+
+- name: Set dock position
+  community.general.osx_defaults:
+    domain: com.apple.dock
+    key: orientation
+    type: string
+    value: right
+    state: present
+  notify: Restart Dock
+
+- name: Set dock auto hide
+  community.general.osx_defaults:
+    domain: com.apple.dock
+    key: autohide
+    type: bool
+    value: true
+    state: present
+  notify: Restart Dock

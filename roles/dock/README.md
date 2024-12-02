@@ -1,7 +1,10 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+Configure MacOS' dock
+
+> Some parts based on the role from https://github.com/geerlingguy/ansible-collection-mac/tree/master
+> Defaults from https://macos-defaults.com
 
 Requirements
 ------------

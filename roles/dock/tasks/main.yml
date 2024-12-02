@@ -1,0 +1,23 @@
+#SPDX-License-Identifier: MIT-0
+---
+- name: Prep environment
+  ansible.builtin.include_tasks: prep.yml
+
+- name: Configure dock preferences
+  ansible.builtin.include_tasks: preferences.yml
+
+- name: Remove configured Dock items.
+  ansible.builtin.include_tasks: remove.yml
+  loop: "{{ dockitems_remove }}"
+  loop_control:
+    extended: true
+    extended_allitems: false
+  tags: ['dock']
+
+- name: Ensure required dock items exist.
+  ansible.builtin.include_tasks: add.yml
+  loop: "{{ dockitems_persist }}"
+  loop_control:
+    extended: true
+    extended_allitems: false
+  tags: ['dock']
