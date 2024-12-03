@@ -6,6 +6,7 @@ brew_taps:
 
 brew_packages:
 - 1password
+- 1password-cli
 - awscli
 - coder
 - discord
