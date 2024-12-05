@@ -1,3 +1,6 @@
+ansible_connection: local
+ansible_python_interpreter: /opt/homebrew/bin/python3
+
 dockitems_remove:
 - Launchpad
 - TV
@@ -9,4 +12,4 @@ dockitems_persist:
   path: "/Applications/Visual Studio Code.app/"
   pos: 1
 
-ansible_python_interpreter: /opt/homebrew/bin/python3
+install_pab: true

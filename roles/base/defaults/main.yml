@@ -9,6 +9,7 @@ brew_packages:
 - 1password-cli
 - awscli
 - coder
+- coreutils
 - discord
 - docker
 - docker-compose
@@ -28,6 +29,7 @@ brew_packages:
 - kubernetes-cli
 - kubeshark
 - little-snitch
+- mac-mouse-fix
 - mas-cli/tap/mas
 - minicom
 - minio-mc
@@ -40,6 +42,7 @@ brew_packages:
 - starship
 - terragrunt
 - tmux
+- utm
 - vcftools
 - visual-studio-code
 - vmware-fusion
@@ -47,6 +50,7 @@ brew_packages:
 - wget
 - wireshark
 - yq
+- zoom
 
 mas_apps:
 - 1569813296 # 1Password for Safari

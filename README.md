@@ -17,3 +17,9 @@ brew install ansible sshpass
 sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist
 ansible-playbook -i inventory playbook.yaml -K -k
 ```
+
+## TODO
+
+- [ ] Add 1Password SSH Agent Config
+- [ ] Link 1Password SSH Agent Socket (~/.1password/agent.sock)
+- [ ] Move SSH enablement out of `bootstrap.sh` and into a role now that local connection is used

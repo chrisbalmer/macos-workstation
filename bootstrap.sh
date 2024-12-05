@@ -6,7 +6,7 @@ export $ANSIBLE_PROJECT=~/code/macos-workstation
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install base apps
-brew install ansible sshpass
+brew install ansible
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Enable SSH
