@@ -23,3 +23,10 @@ ansible-playbook -i inventory playbook.yaml -K -k
 - [ ] Add 1Password SSH Agent Config
 - [ ] Link 1Password SSH Agent Socket (~/.1password/agent.sock)
 - [ ] Move SSH enablement out of `bootstrap.sh` and into a role now that local connection is used
+- [ ] Add configs for mac mouse fix
+  - [ ] Left/right buttons
+  - [ ] No update check
+  - [ ] disable reverse direction
+- [ ] Add configs for Safari (no location data, don't open safe attachments, disable password/form filling)
+- [ ] Add firewall rule for mac mouse fix to little snitch
+- [ ] Set tracking speed for mouse
