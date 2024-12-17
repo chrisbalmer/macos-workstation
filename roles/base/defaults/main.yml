@@ -3,55 +3,62 @@
 brew_taps:
 - hashicorp/tap
 - mas-cli/tap
+- fluxcd/tap
+- teamookla/speedtest
 
-brew_packages:
+brew_casks:
 - 1password
 - 1password-cli
 - arq
-- awscli
-- coder
-- coreutils
 - discord
 - docker
-- docker-compose
-- exult
-- ffmpeg
 - firefox
 - font-sauce-code-pro-nerd-font
 - font-source-code-pro-for-powerline
-- go
 - google-chrome
+- little-snitch
+- mac-mouse-fix
+- obsidian
+- orcaslicer
+- royal-tsx
+- utm
+- visual-studio-code
+- vmware-fusion
+- warp
+- zoom
+
+brew_packages:
+- awscli
+- cloudflared
+- coder
+- coreutils
+- docker-compose
+- exult
+- ffmpeg
+- fluxcd/tap/flux
+- go
 - hashicorp/tap/packer
 - hashicorp/tap/terraform
 - hashicorp/tap/vault
-- iterm2
 - jq
 - k9s
 - kubernetes-cli
 - kubeshark
-- little-snitch
-- mac-mouse-fix
 - mas-cli/tap/mas
 - minicom
 - minio-mc
-- obsidian
 - okta-aws-cli
 - pango
 - python3
-- royal-tsx
 - smartmontools
+- teamookla/speedtest/speedtest
 - starship
 - terragrunt
 - tmux
-- utm
 - vcftools
-- visual-studio-code
-- vmware-fusion
-- warp
 - wget
 - wireshark
 - yq
-- zoom
 
 mas_apps:
 - 1569813296 # 1Password for Safari

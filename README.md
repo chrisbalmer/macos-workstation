@@ -30,3 +30,7 @@ ansible-playbook -i inventory playbook.yaml -K -k
 - [ ] Add configs for Safari (no location data, don't open safe attachments, disable password/form filling)
 - [ ] Add firewall rule for mac mouse fix to little snitch
 - [ ] Set tracking speed for mouse
+- [ ] Add defaults for file types
+  - [ ] Set vscode as default for most things
+- [ ] Add prisma access browser
+- [ ] Add xdr role

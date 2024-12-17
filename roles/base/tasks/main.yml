@@ -5,10 +5,17 @@
     name: "{{ item }}"
   loop: "{{ brew_taps }}"
 
-- community.general.homebrew:
+- name: Install brew formulas
+  community.general.homebrew:
     name: "{{ item }}"
     state: present
-  loop: "{{ brew_packages }}"
+  loop: "{{ brew_formulas }}"
+
+- name: Install brew casks
+  community.general.homebrew:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ brew_casks }}"
 
 - community.general.mas:
     id: "{{ item }}"
