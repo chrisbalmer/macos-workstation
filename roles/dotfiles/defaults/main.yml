@@ -9,3 +9,5 @@ links:
   dest: ~/.zshrc
 - src: .config/starship.toml
   dest: ~/.config/starship.toml
+- src: .terraformrc
+  dest: ~/.terraformrc

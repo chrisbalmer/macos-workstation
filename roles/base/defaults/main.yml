@@ -15,20 +15,26 @@ brew_casks:
 - firefox
 - font-sauce-code-pro-nerd-font
 - font-source-code-pro-for-powerline
+- ftdi-vcp-driver
 - google-chrome
 - little-snitch
+- lm-studio
 - mac-mouse-fix
 - obsidian
 - orcaslicer
 - royal-tsx
+- shapr3d
+- signal
 - utm
 - visual-studio-code
 - vmware-fusion
 - warp
+- wireshark
 - zoom
 
 brew_packages:
 - awscli
+- azure-cli
 - cloudflared
 - coder
 - coreutils
@@ -51,13 +57,13 @@ brew_packages:
 - pango
 - python3
 - smartmontools
-- teamookla/speedtest/speedtest
 - starship
+- teamookla/speedtest/speedtest
 - terragrunt
 - tmux
+- uv
 - vcftools
 - wget
-- wireshark
 - yq
 
 mas_apps:

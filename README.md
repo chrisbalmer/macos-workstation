@@ -34,3 +34,5 @@ ansible-playbook -i inventory playbook.yaml -K -k
   - [ ] Set vscode as default for most things
 - [ ] Add prisma access browser
 - [ ] Add xdr role
+- [ ] Add uv installers
+  - [ ] uv tool install --python 3.12 posting
